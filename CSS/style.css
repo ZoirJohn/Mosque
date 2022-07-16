@@ -381,7 +381,7 @@ a {
           flex: 1 1 auto;
 }
 .main .banner {
-  background: linear-gradient(94.51deg, #000000 0%, rgba(0, 0, 0, 0.62) 40.66%, rgba(14, 14, 14, 0.22) 70.83%, rgba(196, 196, 196, 0) 97.59%), url(/PHOTO/Banner/bg.png);
+  background-image: linear-gradient(94.51deg, #000000 0%, rgba(0, 0, 0, 0.62) 40.66%, rgba(14, 14, 14, 0.22) 70.83%, rgba(196, 196, 196, 0) 97.59%), url(../img/Banner/bg.png);
   height: 400px;
   position: relative;
   margin: 114px 0px 0px 0px;
@@ -508,7 +508,7 @@ a {
           flex-direction: column;
   width: 78px;
   height: 90px;
-  background: url(/PHOTO/Banner/Hexagon.png) no-repeat center 100%;
+  background: url(../img/Banner/Hexagon.png) no-repeat center 100%;
   color: #23882f;
   font-weight: 600;
   position: relative;
@@ -642,8 +642,8 @@ a {
   color: #23882f;
 }
 .main .main-menu .__news-banner .big-col {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.13)), color-stop(66.15%, rgba(0, 0, 0, 0.613673)), color-stop(85.42%, rgba(0, 0, 0, 0.83)), to(rgba(0, 0, 0, 0.9))), url(/PHOTO/News/bg.png);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.613673) 66.15%, rgba(0, 0, 0, 0.83) 85.42%, rgba(0, 0, 0, 0.9) 100%), url(/PHOTO/News/bg.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.13)), color-stop(66.15%, rgba(0, 0, 0, 0.613673)), color-stop(85.42%, rgba(0, 0, 0, 0.83)), to(rgba(0, 0, 0, 0.9))), url(../img/News/bg.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.613673) 66.15%, rgba(0, 0, 0, 0.83) 85.42%, rgba(0, 0, 0, 0.9) 100%), url(../img/News/bg.png);
   height: 475px;
   width: 100%;
   padding: 0 41px 34px 22px;
