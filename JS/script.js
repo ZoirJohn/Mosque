@@ -58,3 +58,4 @@ blackName.innerHTML = newsJS.innerHTML;
 
 // breadcrumb.innerHTML += greenName.innerHTML + blackName.innerHTML;
 console.log(breadcrumb.textContent);
+

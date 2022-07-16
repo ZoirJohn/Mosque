@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 $main-color: #23882f;
 
 * {
@@ -17,7 +17,7 @@ $main-color: #23882f;
 	min-height: 100vh;
 	flex-direction: column;
 	font-size: 18px;
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 	background: #f8f8f8;
 	position: relative;
 	overflow: hidden;
@@ -80,7 +80,7 @@ a {
 		position: relative;
 
 		&::before {
-			content: "";
+			content: '';
 			position: absolute;
 			background: #fff;
 			width: 100%;
@@ -201,7 +201,7 @@ a {
 
 				.dropdown {
 					@include center(center);
-					font-family: "Roboto";
+					font-family: 'Roboto';
 					font-size: 16px;
 					font-weight: 400;
 					margin: 0 27px 0 0;
@@ -231,7 +231,7 @@ a {
 					display: block;
 					position: absolute;
 					list-style: none;
-					font-family: "Roboto";
+					font-family: 'Roboto';
 					top: 105%;
 					z-index: 9;
 					transition: all 500ms;
@@ -264,7 +264,7 @@ a {
 
 				.remove {
 					background: $main-color;
-					font-family: "Roboto";
+					font-family: 'Roboto';
 					font-weight: 400;
 					font-size: 16px;
 					color: #ffffff;
@@ -297,7 +297,7 @@ a {
 						.burger__icon,
 						&::before,
 						&::after {
-							content: "";
+							content: '';
 							width: 100%;
 							height: 2px;
 							background: #000;
@@ -346,7 +346,7 @@ a {
 	flex: 1 1 auto;
 
 	.banner {
-		background: linear-gradient(94.51deg, #000000 0%, rgba(0, 0, 0, 0.62) 40.66%, rgba(14, 14, 14, 0.22) 70.83%, rgba(196, 196, 196, 0) 97.59%), url(/PHOTO/Banner/bg.png);
+		background: linear-gradient(94.51deg, #000000 0%, rgba(0, 0, 0, 0.62) 40.66%, rgba(14, 14, 14, 0.22) 70.83%, rgba(196, 196, 196, 0) 97.59%), url(../img/Banner/bg.png);
 		height: 400px;
 		position: relative;
 		margin: 114px 0px 0px 0px;
@@ -454,7 +454,7 @@ a {
 						flex-direction: column;
 						width: 78px;
 						height: 90px;
-						background: url(/PHOTO/Banner/Hexagon.png) no-repeat center 100%;
+						background: url(../img/Banner/Hexagon.png) no-repeat center 100%;
 						color: $main-color;
 						font-weight: 600;
 						position: relative;
@@ -911,7 +911,7 @@ a {
 						color: #fff;
 						font-weight: 400;
 						font-size: 18px;
-						font-family: "Inter";
+						font-family: 'Inter';
 
 						i {
 							@include center(center);
@@ -974,7 +974,7 @@ a {
 						p {
 							font-weight: 600;
 							font-size: 14px;
-							font-family: "Roboto";
+							font-family: 'Roboto';
 							flex: 1 1 auto;
 						}
 
@@ -1016,7 +1016,7 @@ a {
 								color: #7e818c;
 								font-size: 10px;
 								font-weight: 500;
-								font-family: "Roboto";
+								font-family: 'Roboto';
 							}
 						}
 					}
@@ -1455,10 +1455,10 @@ a {
 	}
 }
 
-@import "news.scss";
-@import "post.scss";
-@import "login.scss";
-@import "about.scss";
+@import 'news.scss';
+@import 'post.scss';
+@import 'login.scss';
+@import 'about.scss';
 
 // Стилизация скролла
 ::-webkit-scrollbar {
