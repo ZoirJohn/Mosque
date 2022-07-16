@@ -53,8 +53,11 @@ const blackName = document.querySelector(".blackName");
 
 const linkActive = document.querySelector(".link.active");
 const newsJS = document.querySelector(".newsJS");
-greenName.innerHTML = linkActive.innerHTML;
-blackName.innerHTML = newsJS.innerHTML;
+if(linkActive.innerHTML){
+  greenName.innerHTML = linkActive.innerHTML;
+  blackName.innerHTML = newsJS.innerHTML;
+}
+
 
 // breadcrumb.innerHTML += greenName.innerHTML + blackName.innerHTML;
 console.log(breadcrumb.textContent);
