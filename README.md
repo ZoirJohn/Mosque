@@ -2,4 +2,4 @@
 My first site (Mosque)
 (I work very much in this project)
 
-You can see [here](https://duckduckgo.com).
+You can see [here](zoirjohn.github.io/mosque/).
